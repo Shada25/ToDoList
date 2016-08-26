@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LKQ-2r-RwG">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Checklist View Controller-->
+        <scene sceneID="N9q-kO-WEv">
+            <objects>
+                <tableViewController id="LKQ-2r-RwG" customClass="ChecklistViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="KLF-Ow-7As">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="ChecklistItem" id="e4S-l9-Ptp">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e4S-l9-Ptp" id="hMD-bX-Nf8">
+                                    <rect key="frame" x="0.0" y="0.0" width="561" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1000" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2C-BR-1L0">
+                                            <rect key="frame" x="28" y="11" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="q2C-BR-1L0" firstAttribute="leading" secondItem="hMD-bX-Nf8" secondAttribute="leadingMargin" constant="20" id="3V1-oN-5hY"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="q2C-BR-1L0" secondAttribute="trailing" constant="490" id="78u-8h-n1J"/>
+                                        <constraint firstItem="q2C-BR-1L0" firstAttribute="leading" secondItem="hMD-bX-Nf8" secondAttribute="leadingMargin" constant="20" id="7z3-UL-alc"/>
+                                        <constraint firstItem="q2C-BR-1L0" firstAttribute="centerY" secondItem="hMD-bX-Nf8" secondAttribute="centerY" id="CZC-TT-neU"/>
+                                        <constraint firstItem="q2C-BR-1L0" firstAttribute="top" secondItem="hMD-bX-Nf8" secondAttribute="topMargin" constant="3" id="UIq-XK-wv0"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="q2C-BR-1L0" secondAttribute="trailing" constant="20" id="avn-ch-cK7"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="78u-8h-n1J"/>
+                                            <exclude reference="avn-ch-cK7"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="LKQ-2r-RwG" id="zCs-QV-tIF"/>
+                            <outlet property="delegate" destination="LKQ-2r-RwG" id="4D2-de-o2l"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G37-3B-LKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="420" y="433"/>
+        </scene>
+    </scenes>
+</document>
