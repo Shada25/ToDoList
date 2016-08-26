@@ -13,6 +13,7 @@
 		5C04EAA41D703D9F001C5BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C04EAA31D703D9F001C5BDE /* Assets.xcassets */; };
 		5C04EAA71D703D9F001C5BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C04EAA51D703D9F001C5BDE /* LaunchScreen.storyboard */; };
 		5C04EAAF1D706B77001C5BDE /* Ckecklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04EAAE1D706B77001C5BDE /* Ckecklist.swift */; };
+		5C04EAB11D707F81001C5BDE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5C04EAB01D707F81001C5BDE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5C04EAA61D703D9F001C5BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C04EAA81D703D9F001C5BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C04EAAE1D706B77001C5BDE /* Ckecklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ckecklist.swift; sourceTree = "<group>"; };
+		5C04EAB01D707F81001C5BDE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		5C04EA901D703D9F001C5BDE = {
 			isa = PBXGroup;
 			children = (
+				5C04EAB01D707F81001C5BDE /* README.md */,
 				5C04EA9B1D703D9F001C5BDE /* ToDoList */,
 				5C04EA9A1D703D9F001C5BDE /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				5C04EAAF1D706B77001C5BDE /* Ckecklist.swift in Sources */,
 				5C04EA9F1D703D9F001C5BDE /* ChecklistViewController.swift in Sources */,
+				5C04EAB11D707F81001C5BDE /* README.md in Sources */,
 				5C04EA9D1D703D9F001C5BDE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
