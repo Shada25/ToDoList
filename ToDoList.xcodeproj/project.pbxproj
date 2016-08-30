@@ -15,6 +15,7 @@
 		5C04EAAF1D706B77001C5BDE /* Ckecklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04EAAE1D706B77001C5BDE /* Ckecklist.swift */; };
 		5C04EAB11D707F81001C5BDE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5C04EAB01D707F81001C5BDE /* README.md */; };
 		5C04EAB31D742A98001C5BDE /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04EAB21D742A98001C5BDE /* AddItemViewController.swift */; };
+		5C04EAB51D758FEC001C5BDE /* AddToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04EAB41D758FEC001C5BDE /* AddToDoItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5C04EAAE1D706B77001C5BDE /* Ckecklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ckecklist.swift; sourceTree = "<group>"; };
 		5C04EAB01D707F81001C5BDE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5C04EAB21D742A98001C5BDE /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		5C04EAB41D758FEC001C5BDE /* AddToDoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				5C04EAA81D703D9F001C5BDE /* Info.plist */,
 				5C04EAAE1D706B77001C5BDE /* Ckecklist.swift */,
 				5C04EAB21D742A98001C5BDE /* AddItemViewController.swift */,
+				5C04EAB41D758FEC001C5BDE /* AddToDoItemViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C04EAB31D742A98001C5BDE /* AddItemViewController.swift in Sources */,
+				5C04EAB51D758FEC001C5BDE /* AddToDoItemViewController.swift in Sources */,
 				5C04EAAF1D706B77001C5BDE /* Ckecklist.swift in Sources */,
 				5C04EA9F1D703D9F001C5BDE /* ChecklistViewController.swift in Sources */,
 				5C04EAB11D707F81001C5BDE /* README.md in Sources */,

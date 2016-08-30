@@ -89,7 +89,6 @@ class AddItemViewController: UITableViewController {
 
 // UITableViewControllerDataSource
 extension AddItemViewController{
-
     override func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
         return nil
     }
